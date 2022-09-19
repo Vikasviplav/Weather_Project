@@ -79,32 +79,22 @@ function showWeatherReport(weather) {
     document.querySelector("audio").src = "/music/cloud.mp3";
     document.querySelector("audio").play();
   } else if (weatherType.textContent == "Haze") {
-    console.log("prince");
-
     document.body.style.backgroundImage = "url('images/haze.gif')";
     document.querySelector("audio").src = "/music/MIST.mp3";
     document.querySelector("audio").play();
   } else if (weatherType.textContent == "Rain") {
-    console.log("prince");
-
     document.body.style.backgroundImage = "url('images/rainy.gif')";
     document.querySelector("audio").src = "/music/raining.mp3";
     document.querySelector("audio").play();
   } else if (weatherType.textContent == "Snow") {
-    console.log("prince");
-
     document.body.style.backgroundImage = "url('images/snowfall.gif')";
     document.querySelector("audio").src = "/music/snowfall.mp3";
     document.querySelector("audio").play();
   } else if (weatherType.textContent == "Thunderstorm") {
-    console.log("prince");
-
     document.body.style.backgroundImage = "url('images/thunder1.gif')";
     document.querySelector("audio").src = "/music/Thunder.mp3";
     document.querySelector("audio").play();
   } else if (weatherType.textContent == "Mist") {
-    console.log("prince");
-
     document.body.style.backgroundImage = "url('images/giphy.gif')";
     document.querySelector("audio").src = "/music/MIST.mp3";
     document.querySelector("audio").play();
